@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Magra Energy Solutions</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"> <!-- Your custom stylesheet -->
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">
+      <img src="logo/logo.jpeg" alt="Magra Energy Solutions Logo" style="height: 120px;">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#services">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#tips">Tips</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#products">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Header Section -->
+  <header class="text-center py-5" style="background: url('images/solar-panels.jpg') no-repeat center center; background-size: cover; color: white;">
+    <div class="overlay">
+      <h1>Welcome to Magra Energy Solutions</h1>
+      <p>A step towards brightness</p>
+    </div>
+  </header>
+
+  <!-- Services Section -->
+  <section id="services" class="container py-5">
+    <h2 class="text-center mb-4">Our Services</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card shadow">
+          <img src="services/panels.jpeg" class="card-img-top" alt="Solar Panel Installation">
+          <div class="card-body">
+            <h5 class="card-title">Solar Panel Installation</h5>
+            <p class="card-text">We provide efficient solar panel installations for residential and commercial properties.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow">
+          <img src="services/system.jpeg" class="card-img-top" alt="Portable Home Solar System">
+          <div class="card-body">
+            <h5 class="card-title">Portable Home Solar System</h5>
+            <p class="card-text">Our workmanship is warranted for your peace of mind.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow">
+          <img src="services/project.jpeg" class="card-img-top" alt="Commercial Backup System">
+          <div class="card-body">
+            <h5 class="card-title">Commercial Backup System</h5>
+            <p class="card-text">We offer advanced energy storage solutions, helping you store solar energy for use during night-time.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tips Section -->
+  <section id="tips" class="container py-5">
+    <h2 class="text-center mb-4" style="color: #1D3557;">Solar Tips for End Users</h2>
+    <ul class="list-unstyled">
+      <li><strong>1. Optimize Your Energy Consumption:</strong> Use energy-efficient appliances and lighting to reduce your electricity consumption, making the most of the energy your solar panels generate.</li>
+      <li><strong>2. Monitor Your Solar System's Performance:</strong> Keep an eye on your solar energy system's performance using a monitoring system. It helps you identify underperformance early and ensures you're always getting the best out of your investment.</li>
+      <li><strong>3. Maximize Sunlight Exposure:</strong> If possible, clear any obstructions (such as trees or buildings) that may block sunlight from hitting your solar panels, particularly during peak sunlight hours.</li>
+      <li><strong>4. Use Energy During Daytime:</strong> Try to use major appliances like washing machines, air conditioners, and dishwashers during the day when your solar panels are generating energy. This helps you reduce reliance on the grid.</li>
+      <li><strong>5. Invest in Solar Batteries for Energy Storage:</strong> Solar batteries store excess energy generated during the day, which can be used at night or on cloudy days, reducing your reliance on the grid and increasing your energy independence.</li>
+      <li><strong>6. Regularly Clean Your Solar Panels:</strong> Keep your solar panels clean from dirt, dust, and debris. Dirty panels can reduce efficiency, so clean them every few months or after heavy storms.</li>
+      <li><strong>7. Keep the Inverter Area Cool:</strong> Your solar inverter should be kept cool to function optimally. Avoid placing it in hot, enclosed areas or areas prone to dust buildup.</li>
+      <li><strong>8. Be Aware of Seasonal Changes:</strong> Solar panels generate less energy in winter months due to shorter days and lower sunlight. You can adjust your energy usage habits to match seasonal variations in energy production.</li>
+      <li><strong>9. Check for Shade During Peak Hours:</strong> During peak sunlight hours (usually 10 AM to 4 PM), ensure that your panels are not covered by shade, as it will reduce energy production.</li>
+      <li><strong>10. Take Advantage of Government Incentives:</strong> Many governments offer tax incentives, rebates, or grants for solar panel installations. Be sure to explore any available programs that can reduce your initial setup costs.</li>
+    </ul>
+  </section>
+
+  <!-- Products Section -->
+<section id="products" class="container py-5">
+    <h2 class="text-center mb-4" style="color: #1D3557;">Our Products</h2>
+    <div class="row">
+      <!-- Solar Panel Product -->
+      <div class="col-md-4">
+        <div class="card shadow">
+          <img src="products/panel.jfif" class="card-img-top" alt="Solar Panel">
+          <div class="card-body">
+            <h5 class="card-title">Solar Panel 550W</h5>
+            <p class="card-text">Our high-efficiency 550W solar panel harnesses the sun's power to provide reliable, sustainable energy for your home or business. Designed for maximum energy output and durability.</p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Inverter Product -->
+      <div class="col-md-4">
+        <div class="card shadow">
+          <img src="products/inverter.jpg" class="card-img-top" alt="Solar Inverter">
+          <div class="card-body">
+            <h5 class="card-title">Solar Inverter</h5>
+            <p class="card-text">This solar inverter converts DC electricity generated by solar panels into usable AC power for your appliances. Durable and highly efficient, it's ideal for both residential and commercial systems.</p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Solar Battery Product -->
+      <div class="col-md-4">
+        <div class="card shadow">
+          <img src="products/battery.jpeg" class="card-img-top" alt="Solar Battery">
+          <div class="card-body">
+            <h5 class="card-title">Solar Battery</h5>
+            <p class="card-text">Our high-capacity solar battery stores excess energy generated during the day, ensuring you have power during the night or cloudy days. Reliable and long-lasting, it's the perfect companion to your solar system.</p>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+  <!-- Contact Section -->
+<section id="contact" class="container py-5">
+    <h2 class="text-center mb-4" style="color: #1D3557;">Contact Us</h2>
+    <div class="row">
+      <!-- Contact Details -->
+      <div class="col-md-6">
+        <h5>Our Details</h5>
+        <p><strong>Address:</strong> 10A Everest Way, Braeside, Harare</p>
+        <p><strong>Contact Number:</strong> +263 776 916 051</p>
+        <p><strong>Email:</strong> <a href="mailto:sales@magra.co.zw" style="color: #1D3557;">sales@magra.co.zw</a></p>
+        <p><strong>Follow Us:</strong></p>
+        <ul class="list-unstyled">
+          <li><a href="https://www.facebook.com/MagraEnergy" target="_blank" style="color: #1D3557;">Facebook: Magra Energy</a></li>
+          <li><a href="https://twitter.com/MagraEnergy" target="_blank" style="color: #1D3557;">X: Magra Energy</a></li>
+          <li><a href="https://www.instagram.com/MagraEnergy" target="_blank" style="color: #1D3557;">Instagram: Magra Energy</a></li>
+        </ul>
+      </div>
+  
+      <!-- Contact Form -->
+      <div class="col-md-6">
+        <h5>Send Us a Message</h5>
+        <form action="your_form_submission_url" method="POST">
+          <div class="mb-3">
+            <label for="name" class="form-label">Your Name</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Your Email</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Your Message</label>
+            <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- Articles Section -->
+<section id="articles" class="container py-5">
+    <h2 class="text-center mb-4" style="color: #1D3557;">Latest Articles</h2>
+    <div class="row">
+      <!-- Article 1 -->
+      <div class="col-md-4">
+        <div class="card shadow">
+          <img src="articles/faults.jfif" class="card-img-top" alt="Article Image 1">
+          <div class="card-body">
+            <h5 class="card-title">Faults in solar systems</h5>
+            <p class="card-text">See how solar system faults may occur and be resolved. This articles covers causes, effects and ways to fix solar system faults.</p>
+            <a href="article1.html" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Article 2 -->
+      <div class="col-md-4">
+        <div class="card shadow">
+          <img src="images/article2.jpg" class="card-img-top" alt="Article Image 2">
+          <div class="card-body">
+            <h5 class="card-title">How to Maintain Your Solar System</h5>
+            <p class="card-text">Learn simple maintenance tips to keep your solar system running efficiently for years. Regular maintenance can improve energy production and extend the lifespan of your panels and battery.</p>
+            <a href="article2.html" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Article 3 -->
+      <div class="col-md-4">
+        <div class="card shadow">
+          <img src="images/article3.jpg" class="card-img-top" alt="Article Image 3">
+          <div class="card-body">
+            <h5 class="card-title">5 Benefits of Solar Energy for Your Home</h5>
+            <p class="card-text">Explore the key advantages of installing solar panels at home, from reducing electricity bills to contributing to a greener environment.</p>
+            <a href="article3.html" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+  <section id="quote-generator" class="container py-5">
+    <h2 class="text-center mb-4">Get a Free Solar System Quote</h2>
+    <form id="quoteForm">
+      <div class="form-group">
+        <label for="energy-consumption">Average Daily Energy Consumption (kWh)</label>
+        <input type="number" class="form-control" id="energy-consumption" required>
+      </div>
+      <div class="form-group">
+        <label for="roof-size">Roof Size Available (m²)</label>
+        <input type="number" class="form-control" id="roof-size" required>
+      </div>
+      <div class="form-group">
+        <label for="location">Location (City)</label>
+        <input type="text" class="form-control" id="location" required>
+      </div>
+      <div class="form-group">
+        <label for="system-type">Type of System</label>
+        <select class="form-control" id="system-type">
+          <option value="on-grid">On-grid</option>
+          <option value="off-grid">Off-grid</option>
+          <option value="hybrid">Hybrid</option>
+        </select>
+      </div>
+      <button type="button" class="btn btn-primary" onclick="generateQuote()">Generate Quote</button>
+    </form>
+  
+    <div id="quoteResult" class="mt-4" style="display:none;">
+      <h4>Your Estimated Solar System Quote</h4>
+      <p id="quoteOutput"></p>
+    </div>
+  </section>
+  <script>
+    function generateQuote() {
+      // Get user inputs
+      var energyConsumption = document.getElementById("energy-consumption").value;
+      var roofSize = document.getElementById("roof-size").value;
+      var location = document.getElementById("location").value;
+      var systemType = document.getElementById("system-type").value;
+  
+      // Basic calculation assumptions
+      var panelEfficiency = 0.15;  // Assumed efficiency of solar panels
+      var panelCapacity = 550;     // Assumed capacity of each solar panel in watts
+  
+      // Adjust cost based on system type
+      var systemCostMultiplier = (systemType === "off-grid") ? 1.5 : 1.2; // Off-grid is more expensive
+  
+      // Calculate the number of panels needed based on energy consumption
+      var totalEnergyRequired = energyConsumption * 1000;  // Convert kWh to watts
+      var panelsNeeded = totalEnergyRequired / (panelCapacity * panelEfficiency);
+      
+      // Calculate the total cost (simplified for now)
+      var panelCost = 100; // Assumed cost per panel in USD
+      var totalCost = panelsNeeded * panelCost * systemCostMultiplier;
+  
+      // Display the quote
+      var quoteOutput = "Based on your input, the estimated cost for your " + systemType + " system is approximately: USD " + totalCost.toFixed(2) + ".";
+      
+      // Display the result
+      document.getElementById("quoteResult").style.display = "block";
+      document.getElementById("quoteOutput").innerHTML = quoteOutput;
+    }
+  </script>
+    
+  
+  
